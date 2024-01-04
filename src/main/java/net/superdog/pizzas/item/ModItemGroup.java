@@ -18,7 +18,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.PIZZA_SLICE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
-                        entries.add(ModItems.CHEESE);
+                        entries.add(ModBlocks.CHEESE);
                         entries.add(ModBlocks.PIZZA);
                         entries.add(ModItems.PIZZA_SLICE);
 

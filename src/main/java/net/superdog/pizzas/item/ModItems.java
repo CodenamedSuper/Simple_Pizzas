@@ -21,9 +21,6 @@ public class ModItems {
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new TomatoSeedItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
-    public static final Item CHEESE = registerItem("cheese",
-            new Item(new FabricItemSettings().food(ModFoodComponents.CHEESE)));
-
     public static final Item PIZZA_SLICE = registerItem("pizza_slice",
             new Item(new FabricItemSettings().food(ModFoodComponents.PIZZA_SLICE)));
 

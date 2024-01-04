@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.superdog.pizzas.Pizzas;
+import net.superdog.pizzas.block.custom.CheeseBlock;
 import net.superdog.pizzas.block.custom.PizzaBlock;
 import net.superdog.pizzas.block.custom.TomatoCropBlock;
 
@@ -19,6 +20,9 @@ public class ModBlocks {
 
     public static final Block PIZZA = registerBlock("pizza",
             new PizzaBlock(FabricBlockSettings.copyOf(Blocks.CAKE).strength(0.5f, 0.5f)));
+
+    public static final Block CHEESE = registerBlock("cheese",
+            new CheeseBlock(FabricBlockSettings.copyOf(Blocks.CAKE).strength(0.5f, 0.5f)));
 
 
     public static final Block TOMATO_CROP = registerBlock("tomato_crop",
