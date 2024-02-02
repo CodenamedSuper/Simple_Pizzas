@@ -1,6 +1,9 @@
 package net.superdog.pizzas.block.custom;
 
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
@@ -15,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 public class PizzaBlock extends HorizontalFacingBlock {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public PizzaBlock(net.minecraft.block.AbstractBlock.Settings settings) {
+    public PizzaBlock(Settings settings) {
         super(settings);
     }
 
